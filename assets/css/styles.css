@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower|Lato:400,700,700i|News+Cycle:400,700&display=swap');
+
+
+
+body {
+	background-color:white;
+	color:#150f0f;
+	font-family: 'Indie Flower', cursive;
+	font-size: 16px;
+}
+/* typography */
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Lato', sans-serif;
+	margin: 10px 0 20px 0;	
+}
+
+h1{
+	padding-top: 20px;
+	padding-bottom: 50px;
+	font-size: 28px;
+	display: inline-block;
+}
+
+h1 a {
+	text-decoration: none;
+	color:black;
+}
+
+h1 a:hover{
+	color:#d5de25;
+	text-decoration: none;
+
+}
+
+h2 {
+	font-size: 25px;
+	font-weight: bold;
+	border-bottom: 1px solid #e0ac27;
+	padding-bottom: 10px;
+	letter-spacing: 1px;
+	display:inline-block;
+	}
+
+
+p {
+	font-size: 18px;
+	line-height: 23px;
+	margin-bottom: 20px; 
+}
+
+/* main containers */
+
+.wrapper {
+	width: 980px;
+	margin: 0 auto;
+}
+
+header {
+	height:200px;
+	padding: 50px;
+	
+}
+
+nav {
+	float:left;
+	margin-top: 20px;
+}
+
+nav ul {
+}
+
+nav ul li {
+	display:inline-block;
+}
+
+nav ul li a {
+	text-decoration: none;
+	color:black;
+	background-color: cornsilk;
+	padding: 10px 15px;
+	text-transform: uppercase;	
+	
+}
+
+nav ul li a:hover {
+	
+	background-color: aqua; 
+}
+
+main {
+	padding: 20px;
+	
+}
+
+.text-container{
+	width: 60%;
+}
+
+footer {
+	clear:both;
+	height:50px;
+	text-align:left;
+	border-top: 1px solid black;
+}
+
+footer p{
+	color:#e0ac27;
+	margin-top: 20px;
+}
