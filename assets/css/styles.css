@@ -7,7 +7,8 @@ body {
 	color:#150f0f;
 	font-family: 'Indie Flower', cursive;
 	font-size: 16px;
-}
+
+	}
 /* typography */
 
 h1, h2, h3, h4, h5, h6 {
@@ -72,6 +73,8 @@ nav {
 }
 
 nav ul {
+	
+	
 }
 
 nav ul li {
@@ -84,18 +87,21 @@ nav ul li a {
 	background-color: cornsilk;
 	padding: 10px 15px;
 	text-transform: uppercase;	
+	border-radius: 8px;
+
 	
 }
 
 nav ul li a:hover {
 	
-	background-color: aqua; 
+	background-color: #D2DB4B; 
 }
 
 .hero{
 	min-height: 400px;
 	background-image:url(../images/churchill-house-5.png);
 	background-position: center center;
+	border-radius: 8px;
 		
 }
 
@@ -120,3 +126,47 @@ footer p{
 	margin-top:20px;
 	font-size: 20px;
 }
+
+
+
+.leftimg{
+	width: 60%;
+	height: auto;
+	margin-left: 100px;
+	border-radius: 60px;
+}
+
+
+@media screen and (max-width:640px) {
+	
+	.img { 
+        max-width: 100%; 
+        height: auto;
+    }
+    
+    .container {
+	    
+	    width:auto
+    }
+    
+    .hero{
+	    
+	    width:100%;
+    }
+    
+    .wrapper{
+	    
+	    width: 100%;
+    }
+    
+    .footer{
+	    
+	    width:auto;
+    }
+    
+    
+    .nav {
+	    
+	    width:auto;
+	}
+	

@@ -33,9 +33,8 @@ header{
 	}
 
 img{
-	max-width:50%;
-	height:intrinsic;
-	margin-left: 270px;	
+	max-width:53%;
+	margin-left: 266px;	
 }
 
 nav {
@@ -62,6 +61,7 @@ nav ul li a {
 	font-size: 40px;
 	background-color:#CB9722;
 	padding:5px 10px;
+	border-radius: 8px;
 	
 }
 
