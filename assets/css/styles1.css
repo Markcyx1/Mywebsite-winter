@@ -32,10 +32,21 @@ h1 a:hover{
 header{
 	}
 
+
+.hero{
+	min-height: 487px;
+	background:url(../images/boyd-logo-1.png) no-repeat center top;
+	border-radius: 8px;
+	margin-top: 10px;
+	background-size:700px;
+	}	
+
+/*
 img{
 	max-width:53%;
 	margin-left: 266px;	
 }
+*/
 
 nav {
 	font-family: 'Merienda', cursive;
@@ -83,4 +94,23 @@ footer {
 footer p {
 	text-align: center;
 	margin-top: 30px;
+	font-size: 23px;
+}
+
+
+@media screen and (max-width:640px){
+	
+	.wrapper{
+		width:100%;
+		
+	}
+	
+	.hero{
+		width:100%
+	}
+	
+	.footer{
+		
+		width:100%;
+	}
 }
